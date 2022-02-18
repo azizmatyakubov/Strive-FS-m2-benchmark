@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+.navbar {
+    background-color:  rgba(26,26,26,0.9);
+}
+
+.logo {
+    background-color: white;
+    border-radius: 6px;
+    height: 36px;
+}
+
+.card-img {
+    width: 100%;
+    height: 9rem;
+    object-fit: cover;
+}
+
+.span-price {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+
+.about-gog {
+    border-right: 1px solid black;
+}
+
+.circle-gog-logo-purple {
+    border: 5px solid purple;
+    border-radius: 50px;
+    height: 1.6rem;
+    width: 1.6rem;   
+}
+
+.purple {
+    color: purple;
+    font-weight: 500;
+}
+
+.h-image {
+    min-height: 450px;
+    overflow: hidden;
+    object-fit: cover;
+} 
+
+.h-img {
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.footer-header {
+    background-color:  rgba(26,26,26,0.9);
+    min-height: 3rem;
+}
+
+.footer-body {
+    background-color:  rgba(90, 90, 90, 0.9);
+    min-height: 3rem;
+}
+
+.footer-footer {
+    background-color:  rgba(26,26,26,0.9);
+    min-height: 3rem;
+} 
+
+.footer-header ul li {
+   list-style-type: none;
+}
+
+.ca {
+    border-bottom: 2px solid black;
+    margin-bottom: 6px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
